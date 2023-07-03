@@ -1,0 +1,14 @@
+python-dotenv
+numpy
+pandas
+scikit-learn
+xarray
+matplotlib
+seaborn
+netcdf4
+tqdm
+tensorflow
+keras
+imageio
+motuclient==1.8.4
+ffmpeg==1.4

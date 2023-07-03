@@ -1,0 +1,3 @@
+# Sa-ConvLSTM
+
+The Sa-ConvLSTM layer that is used in this model follows the method explained by Lin et al. https://ojs.aaai.org//index.php/AAAI/article/view/6819 and uses the propsed layer: https://github.com/MahatmaSun1/SaConvSLTM/blob/041ecb020d151a21b4a1c3426c2e4e56269c5bff/SaConvSLTM/SaConvLSTM.py 
