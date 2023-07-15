@@ -487,16 +487,6 @@ print(np.nanmax(preds_real))
 print(np.nanmin(preds_real))
 
 #%%
-# val_ys_trans = (val_ys**(-0.1745758230162425)-1)/(-0.1745758230162425)
-# val_ys_std = (val_ys_trans - np.nanmean(val_ys_trans))/np.nanstd(val_ys_trans)
-
-# ys_trans = (ys**(-0.1745758230162425)-1)/(-0.1745758230162425)
-# ys_std = (ys_trans - np.nanmean(ys_trans))/np.nanstd(ys_trans)
-
-# val_preds_trans = (val_preds**(-0.1745758230162425)-1)/(-0.1745758230162425)
-# preds_trans = (preds**(-0.1745758230162425)-1)/(-0.1745758230162425)
-
-#%%
 #------------------------------------------------------------
 #------------------------------------------------------------
 #### PLOT THE RESIDUALS OF THE PREDICTIONS
@@ -548,15 +538,11 @@ print("Plotting the Residuals")
 fig, ax = plt.subplots(3,2, figsize=(10,10))
 ax[0,0].hist(val_ys, bins=100)
 ax[0,0].set_title("True Distribution of Validation Pixels")
-#ax[0,0].set_yscale('log')
 
-#val_ys_real = np.exp(np.exp(val_ys/10))
-#val_preds_real = np.exp(np.exp(val_preds/10))
 
 pred_graph = val_preds[~np.isnan(val_preds)]
 ax[0,1].hist(np.where(np.isfinite(val_preds) == True, val_preds, np.nan), bins=100)
 ax[0,1].set_title("Predicted Distribution of Validation Pixels")
-#ax[0,1].set_yscale('log')
 
 ax[1,0].scatter(val_ys, np.subtract(val_preds,val_ys), alpha=0.2)
 ax[1,0].set_ylabel("Residuals")
