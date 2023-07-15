@@ -9,10 +9,10 @@ The project utilizes the following models:
 
 | Project step | Model     | Author       | Paper   | GitHub |
 |--------------|-----------|--------------|---------|--------|
-| Gap-filling  | DINCAE v2 | Barth et al. | [DINCAEv1](https://doi.org/10.5194/gmd-15-2183-2022) | [Here](Code: https://github.com/gher-ulg/DINCAE.jl) |   
-| Gap-filling  | DINCAE v2 | Barth et al. | [DINCAEv2](https://doi.org/10.5194/gmd-13-1609-2020) | [Here](https://github.com/gher-uliege/DINCAE) |
-| Gap-filling  | STpconv   | Appel | [STpconv](https://arxiv.org/abs/2208.08781) | [Here](https://github.com/appelmar/STpconv) |
-| Prediction   | Sa-ConvLSTM | Lin et al. | [Sa-ConvLSTM](https://ojs.aaai.org//index.php/AAAI/article/view/6819) | [Here](https://github.com/MahatmaSun1/SaConvSLTM/blob/041ecb020d151a21b4a1c3426c2e4e56269c5bff/SaConvSLTM/SaConvLSTM.py) |
+| Gap-filling  | DINCAE v2 | Barth et al. | [DINCAEv1](https://doi.org/10.5194/gmd-15-2183-2022) | [https://github.com/gher-ulg/DINCAE.jl](https://github.com/gher-ulg/DINCAE.jl) |   
+| Gap-filling  | DINCAE v1 | Barth et al. | [DINCAEv2](https://doi.org/10.5194/gmd-13-1609-2020) | [https://github.com/gher-uliege/DINCAE](https://github.com/gher-uliege/DINCAE) |
+| Gap-filling  | STpconv   | Appel | [STpconv](https://arxiv.org/abs/2208.08781) | [https://github.com/appelmar/STpconv](https://github.com/appelmar/STpconv) |
+| Prediction   | Sa-ConvLSTM | Lin et al. | [Sa-ConvLSTM](https://ojs.aaai.org//index.php/AAAI/article/view/6819) | [https://github.com/MahatmaSun1/SaConvSLTM/blob/041ecb020d151a21b4a1c3426c2e4e56269c5bff/SaConvSLTM/SaConvLSTM.py](https://github.com/MahatmaSun1/SaConvSLTM/blob/041ecb020d151a21b4a1c3426c2e4e56269c5bff/SaConvSLTM/SaConvLSTM.py) |
 
 ## Repository Structure
 
