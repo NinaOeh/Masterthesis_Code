@@ -114,16 +114,16 @@ def Data_Loader_Features(DATA_PATH_CHL, DATA_PATH_Features,
     print(f"Max Pixels: {max_pixels}")
 
     # read all features 
-    wind_v10 = np.load(f'{DATA_PATH_Features}/wind_v10.npy')[1:-19,:,:]
-    wind_u10 = np.load(f'{DATA_PATH_Features}/wind_u10.npy')[1:-19,:,:]
-    pres_t2m = np.load(f'{DATA_PATH_Features}/pres_t2m.npy')[1:-13,:,:]
-    pres_tp = np.load(f'{DATA_PATH_Features}/pres_tp.npy')[1:-13,:,:]
+    wind_v10 = np.load(f'{DATA_PATH_Features}/wind_v10.npy')
+    wind_u10 = np.load(f'{DATA_PATH_Features}/wind_u10.npy')
+    pres_t2m = np.load(f'{DATA_PATH_Features}/pres_t2m.npy')
+    pres_tp = np.load(f'{DATA_PATH_Features}/pres_tp.npy')
     pres_rad = np.load(f'{DATA_PATH_Features}/pres_rad.npy')
-    sst = np.load(f'{DATA_PATH_Features}/sst_values.npy')[1:-8,:,:]
-    wave_VHM0 = np.load(f'{DATA_PATH_Features}/VHM01_data.npy')
-    wave_VHM0 = np.append(wave_VHM0 , np.load(f'{DATA_PATH_Features}/VHM02_data.npy'), axis=0)
-    wave_VMDR = np.load(f'{DATA_PATH_Features}/VMDR1_data.npy')
-    wave_VMDR = np.append(wave_VMDR , np.load(f'{DATA_PATH_Features}/VMDR2_data.npy'), axis=0)
+    sst = np.load(f'{DATA_PATH_Features}/sst_values.npy')
+    wave_VHM0 = np.load(f'{DATA_PATH_Features}/VHM0_data.npy')
+    #wave_VHM0 = np.append(wave_VHM0 , np.load(f'{DATA_PATH_Features}/VHM02_data.npy'), axis=0)
+    wave_VMDR = np.load(f'{DATA_PATH_Features}/VMDR_data.npy')
+    #wave_VMDR = np.append(wave_VMDR , np.load(f'{DATA_PATH_Features}/VMDR2_data.npy'), axis=0)
     topo = np.load(f'{DATA_PATH_Features}/topo.npy')
     topo =  np.repeat(topo[np.newaxis, :, :], 2540, axis=0)
     
