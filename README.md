@@ -16,7 +16,7 @@ The project utilizes the following models:
 
 ## Repository Structure
 
-In the two step approach that is suggested in this study, the data is first gap-filled and the performance of the gap filling models are analysed and compared. Afterwards the gap-filled data is used for the predictions. 
+In the two step approach that is suggested in this study, the data is first gap-filled and the performance of the gap filling models are analysed and compared. Afterwards the gap-filled data is used for the predictions. Finally, the feature importance to perform the predictions in analyzed.
 The repository is organised in the different steps that were performed in the project
 
 1. Data Downloading: Folder 00_Data_Download
@@ -28,6 +28,9 @@ The repository is organised in the different steps that were performed in the pr
 4. Prediction of the CHL concentrations:
     - ConvLSTM model: Folder 21_ConvLSTM
     - Sa-ConvLSTM model: Folder 22_SaConvLSTM
+5. Comparison and feature analysis:
+    - Comparison to in-situ data: Folder 31_Comparisons
+    - Feature analysis: Folder 32_Feature_Analysis
 
 
 ## Example Results
