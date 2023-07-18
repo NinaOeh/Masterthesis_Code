@@ -1,5 +1,5 @@
 # Quantifying Plankton Populations in the Baltic Sea
-### Utilizing Deep Learning Models to produce gap-free satellite images and perform predictions of the chlorophyll-a concentration in the Baltic Sea.
+### Utilizing Spatio-Temporal Deep Learning Models: Gap Filling of Remote Sensing Data and Prediction of Chlorophyll-a Concentrations
 
 This repository holds the code for the Master thesis project of Nina Oehlckers.
 
